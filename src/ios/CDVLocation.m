@@ -360,9 +360,10 @@
 //iOS8+
 -(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
 {
-    if(!__locationStarted){
-        [self startLocation:__highAccuracyEnabled];
-    }
+	//see https://github.com/apache/cordova-plugin-geolocation/issues/253
+    //if(!__locationStarted){
+    //    [self startLocation:__highAccuracyEnabled];
+    //}
 }
 
 - (void)dealloc

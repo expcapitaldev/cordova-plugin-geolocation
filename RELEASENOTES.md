@@ -20,6 +20,10 @@
 -->
 # Release Notes
 
+### 4.1.1-dev-1.0 (Oct 06, 2022) 
+
+* bugfix(ios): permission can be asked in some unexpected cases; [issue]((https://github.com/apache/cordova-plugin-geolocation/issues/253) )
+
 ### 4.1.0 (Nov 06, 2020)
 
 * [GH-214](https://github.com/apache/cordova-plugin-geolocation/pull/214) chore(npm): rebuild `package-lock.json`
